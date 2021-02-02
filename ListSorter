@@ -1,0 +1,16 @@
+b = 0
+flist = input("Enter numbers, Add a comma in between every number")
+txt = flist
+x = txt.split(",")
+nlist = []
+plist = []
+i = 0
+while i < len(x):
+    b = float(x[i])
+    i = i + 1
+    if b < 0 :
+        nlist.insert(0, b)
+    elif b > 0:
+        plist.insert(0, b)
+print(nlist)
+print(plist)
