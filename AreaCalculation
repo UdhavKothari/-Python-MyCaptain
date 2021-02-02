@@ -1,0 +1,4 @@
+rad = int(input("Enter Circle Radius"))
+ar = str(rad*rad*3.1415)
+
+print("The area of the circle is - " + ar)
