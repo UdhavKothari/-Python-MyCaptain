@@ -1,0 +1,9 @@
+str = input("Give File Name")
+txt = str
+x = txt.split(".")
+if "mp4" in x:
+    print("Format - Video")
+elif "mp3" in x:
+    print("Format - Audio")
+elif "py" in x:
+    print("Format - Python")
